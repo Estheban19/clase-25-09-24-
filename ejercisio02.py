@@ -1,10 +1,10 @@
 def fibonacci(n):
     a, b = 0, 1
-    fibonacci = [a, b]
-    for i in range(2, n):
+    fib = [a, b]
+    for _ in range(2, n):
         a, b = b, a + b
-        fibonacci.append(b)
-    return fibonacci
+        fib.append(b)
+    return fib
 
 # Ejemplo de uso
 n = 10
